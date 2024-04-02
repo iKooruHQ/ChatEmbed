@@ -45,16 +45,8 @@ export const Badge = (props: Props) => {
       }}
     >
       Powered by
-      <a
-        ref={liteBadge}
-        href={'https://flowiseai.com'}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="lite-badge"
-        id="lite-badge"
-        style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
-      >
-        <span> Flowise</span>
+      <a ref={liteBadge} class="lite-badge" id="lite-badge" style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}>
+        <span> eBail AI</span>
       </a>
     </span>
   );
